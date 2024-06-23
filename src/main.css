@@ -1,0 +1,13 @@
+
+main {
+    flex: 1;
+    margin-left: 200px;
+    padding: 10px 20px;
+}
+
+main ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  /* Reduzido o espaçamento vertical e horizontal */
+    list-style: none;
+}

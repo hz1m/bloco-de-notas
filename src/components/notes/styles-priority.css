@@ -1,0 +1,56 @@
+
+li.notepad-infos-priority {
+    background: #87b6fc;
+    box-shadow: 0 0 12px 0 rgb(173, 173, 173);
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    width: 300px;  /* Ajuste o tamanho dos itens conforme necessário */
+}
+
+li.notepad-infos-priority div {
+    display: flex;
+    justify-content: space-between;
+}
+
+li.notepad-infos-priority strong {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+
+li.notepad-infos-priority div div {
+    color: #3885f8;
+    cursor: pointer;
+}
+
+li.notepad-infos-priority div div:hover {
+    color: #fff;
+    transition: color 0.2s;
+}
+
+li.notepad-infos-priority textarea {
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 130px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background: #87b6fc;
+    resize: none;
+}
+
+li.notepad-infos-priority textarea:hover{
+    cursor: default;
+}
+
+li.notepad-infos-priority span {
+    color: #3885f8;
+    cursor: pointer;
+}
+
+li.notepad-infos-priority span:hover {
+    color: #3885f8;
+    transition: color 0.2s;
+}

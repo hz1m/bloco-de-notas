@@ -1,0 +1,19 @@
+/* style.css */
+.radio-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .radio-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(44, 44, 44);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
